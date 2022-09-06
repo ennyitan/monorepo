@@ -9,6 +9,16 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
+    "paths": {
+      "lib-monorepo-UI-shared": [
+        "dist/lib-monorepo-ui-shared/lib-monorepo-ui-shared",
+        "dist/lib-monorepo-ui-shared"
+      ],
+      "lib-monorepo-admin-shared": [
+        "dist/lib-monorepo-admin-shared/lib-monorepo-admin-shared",
+        "dist/lib-monorepo-admin-shared"
+      ]
+    },
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
