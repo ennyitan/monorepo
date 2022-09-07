@@ -1,191 +1,106 @@
-<div class="hero">
-  <video autoplay loop muted plays-inline class="back-video">
-    <source src="../../../assets/images/video.mp4" type="video/mp4" />
-  </video>
-  <nav class="cursor-pointer">
-    <img class="logo" src="../../../assets/images/logo.png" alt="" />
-    <ul>
-      <li>HOME</li>
-      <li>BEACHES</li>
-      <li>POPULAR PLACES</li>
-      <li>CONTACT US</li>
-    </ul>
-  </nav>
-  <div class="content">
-    <h1>California</h1>
-    <a href="">Explore</a>
-  </div>
-</div>
+<app-header></app-header>
 
-<div class="section1 flex justify-between gap-2">
-  <div class="activities grid grid-cols-2">
-    <div>
-        <h3>Activities</h3>
-        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+<div class="section1 md:flex md:justify-between md:gap-2 items-start md:p-16" id="beach">
+  <div class="activities grid md:grid-cols-2 md:w-[50%] p-5 gap-2">
+    <div class="mb-7 flex flex-col items-center ">
+      <div class="rounded-full md:h-20 md:w-20 h-10 w-10 bg-amber-500 mb-3"></div>
+        <h3 class="mb-4 font-medium">Activities</h3>
+        <p class="grey leading-8">A small river named Duden flows by their place and supplies it with the necessary</p>
     </div> 
-    <div>
-        <h3>Activities</h3>
-        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+    <div class="mb-7 flex flex-col items-center ">
+      <div class="rounded-full md:h-20 md:w-20 h-10 w-10 bg-amber-500 mb-3"></div>
+        <h3 class="mb-4 font-medium">Travel Arrangements</h3>
+        <p class="grey md:leading-8">A small river named Duden flows by their place and supplies it with the necessary</p>
     </div>
-    <div>
-        <h3>Activities</h3>
-        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+    <div class="mb-7 flex flex-col items-center ">
+      <div class="rounded-full md:h-20 md:w-20 h-10 w-10 bg-amber-500 mb-3"></div>
+        <h3 class="mb-4 font-medium">Private Guide</h3>
+        <p class="grey md:leading-8">A small river named Duden flows by their place and supplies it with the necessary</p>
     </div>
-    <div>
-        <h3>Activities</h3>
-        <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+    <div class="mb-7 flex flex-col items-center " >
+      <div class="rounded-full md:h-20 md:w-20 h-10 w-10 bg-amber-500 mb-3"></div>
+        <h3 class="mb-4 font-medium">Location Manager</h3>
+        <p class="grey md:leading-8">A small river named Duden flows by their place and supplies it with the necessary</p>
     </div>
   </div>
-  <div class="time w-5/12">
-    <h2>It's time to start your adventure</h2>
-    <p>
+  <div class="time p-5 md:w-[50%]">
+    <h2 class="font-bold text-3xl mb-5 md:text-5xl leading-10" >It's time to start your adventure</h2>
+    <p class="grey mb-5 md:leading-8">
       A small river named Duden flows by their place and supplies it with the
       necessary regelialia. It is a paradisematic country, in which roasted
       parts of sentences fly into your mouth. 
     </p>
-    <p>Far far away, behind the word
+    <p class="grey md:leading-8 mb-5">Far far away, behind the word
         mountains, far from the countries Vokalia and Consonantia, there live the
         blind texts. Separated they live in Bookmarksgrove right at the coast of
         the Semantics, a large language ocean. A small river named Duden flows by
         their place and supplies it with the necessary regelialia.</p>
+        <app-button class="bg-orange-400 p-3 text-white rounded-xl" text="Search Destination"></app-button>
   </div>
 </div>
 
-<div class="section2">
-    <div class="grid grid-cols-2">
-        <img class="object-contain w-full" src="../../../assets/images/img1.webp" alt="">
+<div class="section2 p-6 md:p-16">
+    <div class="grid md:grid-cols-2 gap-4 md:gap-8 lg:gap-12">
+      <div class="relative min-h-[180px]">
+        <img class="object-cover absolute top-0 left-0 w-full h-full" src="../../../assets/images/img1.webp" alt="">
+      </div>
         <div>
-            <h2>Make Your Tour Memorable and Safe With Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <div class="grid grid-cols-3">
-                <div>
-                    <h2>300</h2>
-                    <p>Successful Tours</p>
+            <h2 class=" font-bold text-4xl mb-6">Make Your Tour Memorable and Safe With Us</h2>
+            <p class="leading-8 mb-6 grey">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div class="grid md:grid-cols-3 text-center">
+                <div class="mb-5">
+                    <h2 class="font-bold text-3xl lght-org ">300</h2>
+                    <p class="grey">Successful Tours</p>
                 </div>
-                <div>
-                    <h2>24300</h2>
-                    <p>Happy Tourist</p>
+                <div class="mb-5">
+                    <h2 class="font-bold text-3xl lght-org ">24,300</h2>
+                    <p class="grey">Happy Tourist</p>
                 </div>
-                <div>
-                    <h2>200</h2>
-                    <p>Place Explored</p>
+                <div class="mb-5">
+                    <h2 class="font-bold text-3xl lght-org " >200</h2>
+                    <p class="grey">Place Explored</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section3">
-    <h2>Best Place Destination</h2>
-    <div class="grid grid-cols-4 ">
-        <img class="object-cover w-full h-full" src="../.././../assets/images/img1.webp" alt="">
+<div class="section3 md:p-16 p-8">
+    <h2 class="text-center font-bold text-2xl md:text-4xl mb-12" id="popular">Best Place Destination</h2>
+    <div class="grid md:grid-cols-4 gap-6 ">
+      <div class="relative ">
+        <h3 class="absolute left-4 top-4 font-medium text-3xl text-white hover:text-orange-400">Singapore</h3>
+        <img class="object-cover w-full h-full " src="../.././../assets/images/img1.webp" alt="">
+      </div>
+      <div class="relative ">
+        <h3 class="absolute left-4 top-4 font-medium text-3xl text-white hover:text-orange-400">Belgium</h3>
         <img class="object-cover w-full h-full" src="../.././../assets/images/img2.webp" alt="">
+      </div>
+      <div class="relative ">
+        <h3 class="absolute left-4 top-4 font-medium text-3xl text-white hover:text-orange-400">Tokyo</h3>
         <img class="object-cover w-full h-full" src="../.././../assets/images/img3.webp" alt="">
+      </div>
+      <div class="relative ">
+        <h3 class="absolute left-4 top-4 font-medium text-3xl text-white hover:text-orange-400">London</h3>
         <img class="object-cover w-full h-full" src="../.././../assets/images/dest1.webp" alt="">
+      </div>
+      
     </div>
 </div>
 
-<div class="section4">
-    <h2>Tour Destination</h2>
-    <div class="grid grid-cols-3 gap-8">
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">
-                Shoes!
-                <div class="badge badge-secondary">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <div class="badge badge-outline">Fashion</div> 
-                <div class="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">
-                Shoes!
-                <div class="badge badge-secondary">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <div class="badge badge-outline">Fashion</div> 
-                <div class="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">
-                Shoes!
-                <div class="badge badge-secondary">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <div class="badge badge-outline">Fashion</div> 
-                <div class="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">
-                Shoes!
-                <div class="badge badge-secondary">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <div class="badge badge-outline">Fashion</div> 
-                <div class="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">
-                Shoes!
-                <div class="badge badge-secondary">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <div class="badge badge-outline">Fashion</div> 
-                <div class="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">
-                Shoes!
-                <div class="badge badge-secondary">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <div class="badge badge-outline">Fashion</div> 
-                <div class="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-    </div>
-</div>
 
-<div class="section5">
-    <div class="flex justify-between gap-5">
+<div class="section5 p-5 md:p-24">
+    <h2 class="text-center font-bold text-2xl md:text-4xl mb-12">Tourist Feedback</h2>
+    <div class="md:flex md:justify-between md:gap-5">
         <div (click)="navLeftArrow(activeContent[0].id)">
           <i class="fa fa-circle-arrow-left left-arrow"></i>
         </div>
         <div (click)="navRightArrow(activeContent[0].id)">
           <i class="fa fa-circle-arrow-right right-arrow"></i>
         </div>
-        <div class="py-10 px-8 bg-white border-2 border-sky mx-auto w-2/5">
+        <div class="py-10 px-8 bg-white border-2 border-sky mx-auto md:w-2/5">
             <div class="flex">
-              <img class="" src="{{ activeContent[0].image }}" alt="" />
+              <img class="rounded-full h-10 w-10" src="{{ activeContent[0].image }}" alt="" />
               <div class="flex-1 pl-4 items-center">
                 <h2 class="text-orange mb-2 font-bold text-2xl">{{activeContent[0].name }}</h2>
                 <p class="text-grey font-medium">{{ activeContent[0].occupation }}</p>
@@ -195,3 +110,5 @@
           </div>
       </div>
 </div>
+
+<app-footer></app-footer>

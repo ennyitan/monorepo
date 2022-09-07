@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
 
   review: Array<Reviews> = [
     {
-      image: 'assets/images/review1.webp',
+      image: 'assets/images/img1.webp',
       name: 'Stilinski Biles',
       occupation: 'Smartass',
       details: 'Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.',
@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
       id: 0
     },
     {
-      image: 'assets/images/review2.webp',
+      image: 'assets/images/img2.webp',
       name: 'Allison Argent',
       occupation: 'Hunter',
       details: 'Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.',
@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit {
       id: 1
     },
     {
-      image: 'assets/images/review3.webp',
+      image: 'assets/images/dest1.webp',
       name: 'Scott McCall',
       occupation: 'True Alpha',
       details: 'Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.',
@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
       id: 2
     },
     {
-      image: 'assets/images/review1.webp',
+      image: 'assets/images/dest2.webp',
       name: 'Derek Hale',
       occupation: 'Demon Wolf',
       details: 'Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.',
@@ -51,7 +51,7 @@ export class HomeComponent implements OnInit {
       id: 3
     },
     {
-      image: 'assets/images/review2.webp',
+      image: 'assets/images/img2.webp',
       name: 'Kate Argent',
       occupation: 'Hunter turned killer',
       details: 'Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.',
@@ -59,7 +59,7 @@ export class HomeComponent implements OnInit {
       id: 4
     },
     {
-      image: 'assets/images/review3.webp',
+      image: 'assets/images/dest2.webp',
       name: 'Decaulion',
       occupation: 'Blind Alpha',
       details: 'Free resource that will help nderstand thecv designc process and improve theroi nderstand the design process andisei impro are of vquality.',

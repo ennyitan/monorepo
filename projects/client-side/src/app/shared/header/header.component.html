@@ -1,0 +1,22 @@
+<div class="hero">
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="assets/images/video.mp4" type="video/mp4" />
+    </video>
+    <nav class="cursor-pointer">
+      <img class="logo" src="assets/images/logo.png" alt="" />
+      <ul [class.navUlShow]="navUlShow">
+        <li class="orange" routerLinkActive="orange" routerLink="/">HOME</li>
+        <li class="orange-hover"> <a href="/#beach">BEACHES </a></li>
+        <li class="orange-hover"> <a href="/#popular">POPULAR PLACES</a></li>
+        <li class="orange-hover"> <a href="/#contact">CONTACT US</a></li>
+
+        <button (click)="toggleNav()" class="bg-[#fff] absolute right-[20px] top-[20px] w-[30px] h-[30px] md:hidden rounded-full"></button>
+      </ul>
+
+      <button (click)="toggleNav()" class="bg-[#7d7f8f] w-[30px] h-[30px] md:hidden rounded-full"></button>
+    </nav>
+    <div class="content">
+      <h1>California</h1>
+      <a href="">Explore</a>
+    </div>
+  </div>
