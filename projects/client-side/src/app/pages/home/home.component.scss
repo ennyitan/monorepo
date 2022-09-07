@@ -68,6 +68,22 @@ nav ul li{
 .grey{
     color: rgb(133, 128, 128);
 }
+
+  
+  .right-arrow, .left-arrow{
+    font-size: 1.5rem;
+    background: transparent !important;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  .inactive_arrow {
+    opacity: 0.5;
+  }
+  
+  .inactive_arrow i {
+    font-size: 2rem !important;
+  }
 @media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
@@ -91,4 +107,9 @@ nav ul li{
     .content h1 {
         font-size: 50px;
     }
+    .desktop-arrows {
+        position: absolute;
+        bottom: 0%;
+        right: 30%;
+      }
 }
