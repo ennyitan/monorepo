@@ -6,7 +6,8 @@
         <form [formGroup]="loginForm" (ngSubmit)="login()"
             class="grid gap-4 w-full md:mt-4" 
             >
-            <app-input-with-validation [control]="$any(loginForm.get('username'))"
+            <app-input-with-validation [control]="$any(loginForm.get('username')?.invalid && loginForm.get('username')?.touched)"
+            
                 [class]="'w-full outline-0 px-4 py-3 rounded-lg bg-stone-300'"
                 [type]="'text'" [placeholder]="'username'"
             ></app-input-with-validation>
